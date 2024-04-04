@@ -28,7 +28,5 @@ outputLineCtr=$(find "$filesdir" -type f | wc -l)
 
 matchCtr=$(grep -lr "$searchstr" "$filesdir" | wc -l)
 
-
-
 echo "The number of files are $outputLineCtr and the number of matching lines are $matchCtr"
 
