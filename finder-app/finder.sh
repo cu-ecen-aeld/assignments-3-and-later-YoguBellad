@@ -17,7 +17,7 @@ searchstr=$2
 
 if [ -d $filesdir ]; then
     # echo "$filesdir is a Vailid Dir"
-    1>/dev/null
+    1>/dev/null 
 
 else
     echo "$filesdir is not a Valid Dir"

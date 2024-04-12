@@ -60,6 +60,7 @@ done
 
 chmod 777 ./finder.sh
 
+ls -ltr ./finder.sh
 
 OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
 
